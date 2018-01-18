@@ -4,17 +4,17 @@ int main()
 int x,y,z;
 printf("Enter the three numbers");
 scanf("%d %d %d",&x,&y,&z);
-if(x>y && x>z)
+if(x>=y && x>=z)
 {
-printf("the largest number is:",x);
+printf("%x isthe largest number",x);
 }
-else if(y>x && y>z)
+else if(y>=x && y>=z)
 {
-printf("the largest number is:",y);
+printf("%y the largest number",y);
 }
 else
 {
-printf("the largest number is:",z);
+printf("%z the largest number:",z);
 }
 return 0;
 }
