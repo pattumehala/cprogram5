@@ -8,11 +8,11 @@ if(x>y && x>z)
 {
 printf("the largest number is:",x);
 }
-if(y>x && y>z)
+else if(y>x && y>z)
 {
 printf("the largest number is:",y);
 }
-if(z>x && z>y)
+else
 {
 printf("the largest number is:",z);
 }
